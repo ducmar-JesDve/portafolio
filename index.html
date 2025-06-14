@@ -8,41 +8,143 @@
 </head>
 <body>
     <div class="grid-background"></div>
+
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+
+    <div class="cursor-trail"></div>
+
     <nav>
         <ul class="nav-links">
-            <li><a href="#" class="active">Inicio</a> </li>
-            <li><a href="#">Sobre mí</a> </li>
-            <li><a href="#">Habilidades</a> </li>
-            <li><a href="#">Experiencia</a> </li>
-            <li><a href="">Contacto</a> </li>
+            <li><a href="#inicio" class="active">Inicio</a> </li>
+            <li><a href="#sobre-mi">Sobre mí</a> </li>
+            <li><a href="#habilidades">Habilidades</a> </li>
+            <li><a href="#experiencia">Experiencia</a> </li>
+            <li><a href="#contacto">Contacto</a> </li>
         </ul>
-        <section>
-            <h2>Bienvenido a mi portafolio</h2>
-            <p>Aquí encontrarás información sobre mí y mis proyectos.</p>
-        </section>
-        <section>
-            <h2>Sobre Mí</h2>
-            <p>Hola, soy un desarrollador web con experiencia en HTML, CSS y JavaScript.</p>
-        </section>
-        <section>
-            <h2>Habilidades</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Experiencia Profesional</h2>
-            <p>He trabajado en varios proyectos utilizando las tecnologías mencionadas anteriormente.</p>
-        </section>
-        <section>
-            <h2>Contacto</h2>
-            <p>Puedes contactarme a través de mi correo electrónico: ejemplo@correo.com</p>
-        </section>
-        <footer>
-            <p>&copy; 2025 Mi Portafolio</p>
-        </footer>
+        
     </nav>
+
+    <section id="inicio" class="hero">
+       
+        <div class="hero-content">
+            <div class="hero-badge">🚀 Disponible para nuevos proyectos</div>
+            <h1>Ducmar Rocca Escobedo</h1>
+            <p class="subtitle">Ingeniero de Sistemas Computacionales</p>
+            <p class="descripcion">Especialista en desarrollo de soluciones tecnológicas para los sectores agroindustriales y salud. Experto en automatización de procesos, aplicaciones móviles y gestión de bases de datos.
+            </p>
+            <div class="cta-buttons">
+                <a href="#sobre-mi" class="btn btn-primary">Conoce más</a>
+                <a href="#contacto" class="btn btn-secondary">Contactar</a>
+            </div>
+
+        </div>
+        <div class="code-block">
+            <div class="code-line">const engineer={</div>
+            <div class="code-line">  name: "Ducmar Rocca",</div>
+            <div class="code-line">  skills: ["Power Platform", "PACS", "LIS"],</div>
+            <div class="code-line">  passion: "Innovation & Technology",</div>
+            <div class="code-line">  mission: "Transforming businesses"</div>
+            <div class="code-line">};</div>
+        </div>
+        
+    </section>
+
+    <section id="sobre-mi" class="fade-in">
+        <h2 class="section-title">Sobre Mí</h2>
+        <div class="about content">
+            <div class="about-image">
+                <div class="profile-card">
+                    <div class="profile-avatar">DR</div>
+                    <h3>Ducmar Rocca</h3>
+                    <p style="margin-top:1rem;color:var(--text-muted);">Bachiller en Ingeniería de Sistemas Computacionales</p>
+                    <p>Trujillo, Perú</p>
+
+                </div>
+
+            </div>
+            <div class="about-text">
+                <p>Soy un ingeniero de sistemas apasionado por la tecnología y la innovación. Con experiencia sólida en el desarrollo de soluciones informáticas para diversos sectores, me caracterizo por ser una persona responsable, comunicativa y comprometida con la excelencia en cada proyecto.</p>
+                <p>Mi trayectoria profesional se ha enfocado en el sector agroindustrial y de salud, donde he implementado sistemas de automatización, desarrollado aplicaciones móviles y optimizado procesos mediante el uso de tecnologías modernas como Power Platform, bases de datos y desarrollo web.</p>
+                <p>Busco constantemente oportunidades que me permitan crecer tanto profesional como personalmente, manteniéndome actualizado con las últimas tendencias tecnológicas y metodologías de desarrollo.</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="habilidades" class="fade-id">
+       <h2 class="section-title">Habilidades & Competencias</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>💻 Desarrollo de Software</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Power Apps</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🗄️ Bases de Datos</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">SQL Server</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Gestión de BD</span>
+                    <span class="skill-tag">Optimización</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🔧 Microsoft Power Platform</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Power Automate</span>
+                    <span class="skill-tag">Power Apps</span>
+                    <span class="skill-tag">Power BI</span>
+                    <span class="skill-tag">SharePoint</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🏥 Sistemas Especializados</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">PACS</span>
+                    <span class="skill-tag">LIS</span>
+                    <span class="skill-tag">Sistemas de Salud</span>
+                    <span class="skill-tag">Soporte Técnico</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🛠️ Herramientas & Metodologías</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">Office Suite</span>
+                    <span class="skill-tag">Gestión de Proyectos</span>
+                    <span class="skill-tag">Documentación</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>👥 Habilidades Blandas</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Trabajo en Equipo</span>
+                    <span class="skill-tag">Comunicación</span>
+                    <span class="skill-tag">Adaptabilidad</span>
+                    <span class="skill-tag">Resolución de Problemas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Experiencia Profesional</h2>
+        <p>He trabajado en varios proyectos utilizando las tecnologías mencionadas anteriormente.</p>
+    </section>
+    <section>
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de mi correo electrónico: ejemplo@correo.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mi Portafolio</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
